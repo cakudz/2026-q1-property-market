@@ -19,10 +19,19 @@ Note that after these target labels are calculated, the labels will need to be s
 # Input
 The model takes data from the ABS. The measurements taken from the ABS are;
 - the OCR (official cash rate)
+- real mortgage rate (nominal - inflation)
+- cpi index (inflation)
 
-<em>below are lending indicators which are demand features</em>
+<em>below are demand features</em>
 - investor share (percent of new loan commitment's value coming from investors)
 - fhb share (percent of owner occupier new loan commitments that are from first home buyers)
 - lending momentum (quarterly percentage change in the total value of new loan commitments)
 
 <em>below are supply features
+- building approvals (total dwelling units total)
+
+<strong>features not yet with data nor engineered</strong>
+- building approvals per capita
+- unemployment rate
+- rental vacancy rates
+- Westpac-Melbourne Institute Index 'time to buy dwelling' index
